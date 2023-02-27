@@ -12,7 +12,6 @@ body{
     width: 100%;
     padding: 7px;
     margin: 0px 10px 0px 10px;
-    border: 7px solid #45957e; 
     border-radius: 5px;
   }
   .image{
@@ -31,10 +30,6 @@ body{
     text-decoration-thickness: 10px; 
     background-color: rgb(216, 216, 205);
     font-weight: bold;
-  }
-
-  .title{
-    color: white;
   }
 
   .container{
@@ -110,6 +105,7 @@ body{
     text-align: right;
     font-family: "Trirong", serif;
     font-size: larger;
+    color: rgb(54, 13, 54)
   }
   nav a:focus{
     text-decoration-color: yellow;
