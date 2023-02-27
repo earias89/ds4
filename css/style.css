@@ -1,36 +1,68 @@
 body{
     padding: 10px;
     background-color: #d0d0bf;
-    font-size: 22px;
-    margin: 20px 20px 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 20px 110px 20px 70px;
+    font-family: "Trirong", serif;
     align-content: left;
   }
-
-  img{
-    background-color: #858585;
-    min-height: 100px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: contain;
-
-  }
-
-  img{
+  .womens-image{
     background-color: #000000;
     color: ivory;
     width: 100%;
-    padding: 20px;
-    margin: 5px 10px 20px 15px;
-    border: 10px solid #45957e; 
+    padding: 7px;
+    margin: 0px 10px 0px 10px;
+    border: 7px solid #45957e; 
     border-radius: 5px;
   }
+  .image{
+    background-color:#000000;
+    color: ivory;
+    width: 20%;
+    padding: 7px;
+    margin: 5px 10px 5px 10px;
+    border: 7px solid #45957e; 
+    border-radius: 5px;
+  }
+    
+  .active{
+    text-decoration-color: yellow;
+    text-decoration-line: overline;
+    text-decoration-thickness: 10px; 
+    background-color: rgb(216, 216, 205);
+    font-weight: bold;
+  }
+
+  .title{
+    color: white;
+  }
+
   .container{
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 25px;
     flex-direction: column;
+  }
+  .container div{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: #c9c9c9; 
+  }
+
+  .intro{
+    background-image: url(../images/women_march_me.jpg);
+    background-color: #cbcbcb;
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: aliceblue;
+  }
+
+  .intro:hover {
+    filter:contrast(65%);
   }
 
 
@@ -38,6 +70,14 @@ body{
     display: inline;
     padding: 20px 20px 20px 20px;
     text-align: right;
+  }
+
+  .active{
+    text-decoration-color: yellow;
+    text-decoration-line: overline;
+    text-decoration-thickness: 10px; 
+    background-color: rgb(216, 216, 205);
+    font-weight: bold;
   }
 
    a.skip{
@@ -50,6 +90,7 @@ body{
     left: -400px;
     top: -200px; 
   }
+
   .skip:focus{
   top: 20px ;
   left: 0px;
@@ -67,6 +108,8 @@ body{
     padding: 10px 0px 10px 0px;
     margin: 20px 0px 20px 0px;
     text-align: right;
+    font-family: "Trirong", serif;
+    font-size: larger;
   }
   nav a:focus{
     text-decoration-color: yellow;
@@ -77,73 +120,120 @@ body{
 
 
   h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Trirong", serif;
     line-height: normal;
     color: rgb(54, 13, 54);
-    font-size: 32pt;
+    font-size: 28pt;
     font-weight: bold;
     line-height: 80px;
   }
 
   h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Trirong", serif;
     line-height: normal;
     color: #000000;
-    font-size: 20pt;
+    font-size: 25pt;
+    line-height: 80px;
+    font-weight: bold;
+    margin: 65px 0px 0px 0px;
+  }
+
+  h3{
+    font-family: "Trirong", serif;
+    line-height: normal;
+    color: #000000;
+    font-size: 15pt;
     line-height: 80px;
     font-weight: bold;
   }
-
   p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
+    font-family: "Trirong", serif;
     padding: 10px 0px 0px 10px;
     color: black;
     line-height: 20px;
     margin: auto;
     text-align: left;
   }
-  footer p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 25px;
-  } 
-  footer{
-    margin-top: 5px;
-    margin-bottom: 65px;
-  }
-
-  .thanks{
+  .disclaimer{
     width: fit-content;
-   position:relative;
-   top: 100px;
-   width: 100%;
-   color: rgb(54, 13, 54);
-   font-weight: bold;
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 25px;
-  }
-  span{
+    position:relative;
+    top: 100px;
+    width: 100%;
     color: rgb(54, 13, 54);
     font-weight: bold;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    font-family: "Trirong", serif;
+   }
+  footer p{
+    font-family: "Trirong", serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: black;
+    text-align: center;
     margin-top: 25px;
+  } 
+  footer{
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
-  .disclaimer{
-    width: fit-content;
+/* TEST this code */
+  main{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Trirong", serif;
+    margin-top: 30px;
+  }
+  /* TEST this code */
+  div p{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Trirong", serif;
+    text-align: center;
+    font-size: 22px;
+  }
+  /* TEST this code to add bullet points on lists */
+   /* .ul{
+    list-style-type: circle;
+  } */
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* Need to test below code */
+
+  .thanks{
+  width: fit-content;
    position:relative;
    top: 100px;
    width: 100%;
    color: rgb(54, 13, 54);
    font-weight: bold;
    text-align: center;
-   margin-top: 25px;
-   margin-bottom: 25px;
+   margin-top: -55px;
+   margin-bottom: 10px;
+   font-size: 20px;
   }
+
+
   .original{
     width: fit-content;
     position:relative;
@@ -152,14 +242,11 @@ body{
     color: rgb(54, 13, 54);
     font-weight: bold;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 55px;
+    margin-top: -15px;
+    margin-bottom: 95px;
   }
 
-  main{
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 30px;
-  }
+
   dl{
     display: grid;
     grid-template-columns: 15% 38% 38%;
@@ -172,30 +259,35 @@ body{
   dt{
     text-align: left;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Trirong", serif;
     margin-top: 50px;
   }
   dd{
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Trirong", serif;
     font-weight: bold;
     margin-top: 50px;
   }
   .person{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Trirong", serif;
     font-weight: bold;
     text-align: left; 
     margin-left: 22px;
   } 
   .about{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Trirong", serif;
     font-weight: bold;
     text-align: center; 
     margin-bottom: 7px;
     margin-top: 15px;
   } 
   .abouttext{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Trirong", serif;
     font-weight: bold;
     text-align: left; 
     margin-bottom: 35px;
@@ -203,14 +295,16 @@ body{
   }
 
   .key{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Trirong", serif;
     font-weight: bold;
     text-align: center; 
     margin-bottom: 7px;
     margin-top: 15px;
   } 
   .keytext{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Trirong", serif;
     font-weight: bold;
     text-align: left; 
     margin-bottom: 35px;
@@ -218,19 +312,16 @@ body{
   } 
  
 
-  div p{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 20px;
 
-
-  }
-
-  @media screen and (min-width: 1200px){
+  /* @media screen and (min-width: 800px){
     nav{
       padding-top: 35px;
-      /* Requirement 10 code here -- Do not remove this comment. */
       text-align: right;
+    } 
+  
+    nav li{
+      margin-left: 5%;
+      margin-right:0;
     }
-  }
 
+  }  */
