@@ -360,14 +360,14 @@ dd{
       grid-template-columns: 1fr;
       justify-content: center;
       row-gap: 25px;
-      margin: auto;
+      /* margin: auto; */
     }
     .container div{
       border-radius: 10px;
       border: 3px solid black;
       padding: 20px 20px 20px 20px;
       background-color: #c9c9c9; 
-      margin: 20px 80px 50px 80px
+      /* margin: 20px 80px 50px 80px */
     }
   
     .intro{
@@ -514,7 +514,7 @@ dd{
       margin: auto;
       line-height: 1.2;
     }
-    .disclaimer{
+    /* .disclaimer{
       width: fit-content;
       position:relative;
       top: 100px;
@@ -525,7 +525,7 @@ dd{
       margin-bottom: -150px;
       padding: 500px;
       font-family: "Trirong", serif;
-     }
+     } */
 
     
     footer p{
