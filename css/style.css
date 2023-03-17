@@ -43,14 +43,6 @@ body{
     font-weight: bold;
   }
 
-  /* .container{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    row-gap: 25px;
-    margin: auto;
-  } */
   .container div{
     border-radius: 10px;
     border: 3px solid black;
@@ -308,8 +300,18 @@ dd{
  
 
   @media only screen and (min-width: 780px) {
-		img{ width: 35%; 
+    img{
+      background-color:black;
+      color: ivory;
+      width: 70%;
+      padding: 5px;
+      margin: 5px 5px 5px 5px;
+      border: 3px solid black; 
+      border-radius: 5px;
+      /* display: flex;
+      justify-content: center; */
     }
+
   }
 
   @media screen and (min-width: 1200px) {
@@ -317,12 +319,12 @@ dd{
     body{
       
       margin: 200px 110px 200px 70px;
-
+  
     }
     .womens-image{
       /* background-color: #000000; */
       color: ivory;
-      width: 100%;
+      width: 60%;
       padding: auto;
       margin-left: 50px;
       margin-right: 50px;
@@ -333,7 +335,7 @@ dd{
     img{
       background-color:black;
       color: ivory;
-      width: 50%;
+      width: 60%;
       padding: 5px;
       margin: 5px 5px 5px 5px;
       border: 3px solid black; 
@@ -362,14 +364,7 @@ dd{
       row-gap: 25px;
       /* margin: auto; */
     }
-    .container div{
-      border-radius: 10px;
-      border: 3px solid black;
-      padding: 20px 20px 20px 20px;
-      background-color: #c9c9c9; 
-      /* margin: 20px 80px 50px 80px */
-    }
-  
+
     .intro{
       background-image: url(../images/women_march_me.jpg);
       background-color: #cbcbcb;
@@ -433,7 +428,7 @@ dd{
     font-weight: bold;
   }
   
-    /* ADD NAV // Fix errors on inspectors*/
+
   
     nav ul{
       display: flex;
@@ -514,20 +509,6 @@ dd{
       margin: auto;
       line-height: 1.2;
     }
-    /* .disclaimer{
-      width: fit-content;
-      position:relative;
-      top: 100px;
-      width: 100%;
-      color: rgb(54, 13, 54);
-      font-weight: bold;
-      text-align: center;
-      margin-bottom: -150px;
-      padding: 500px;
-      font-family: "Trirong", serif;
-     } */
-
-    
     footer p{
       font-family: "Trirong", serif;
       font-size: 12pt;
